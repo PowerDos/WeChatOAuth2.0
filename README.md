@@ -59,7 +59,7 @@ class OAuth2Controller extends Controller {
 ```PHP
 <?php 
 namespace Home\Controller;
-class IndexController extends OAuth2Controller {
+class DemoController extends OAuth2Controller {
     public function index(){
         $this->show("这个是测试案例");
     }
