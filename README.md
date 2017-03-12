@@ -66,5 +66,5 @@ class DemoController extends OAuth2Controller {
 }
 ```
 ## P.S.
-相关认证代码放在目录`./Application/Home/Common/function.php`下(不是用TP写的小伙伴可以在这里参考)<br>
+相关认证代码放在目录`./Application/Home/Common/function.php`下(不是用TP写的小伙伴可以在这里参考下认证代码)<br>
 注意要创建相应的数据库和表。具体更改在function目录下更改`getUserInfo()`方法就好
