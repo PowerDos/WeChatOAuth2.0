@@ -45,7 +45,7 @@ class OAuth2Controller extends Controller {
 			//已验证过
 			//如果你不需要用户绑定的话，可以跳过下面这步
 			if(!session("?userID")){
-				$this->redirect('这里填入绑定页面','',2,"<h1>请先绑定账号再使用,将自动跳转到绑定页面</h1>");
+				$this->redirect('这里填入要跳转的绑定页面','',2,"<h1>请先绑定账号再使用,将自动跳转到绑定页面</h1>");
 			}
 		}else{
 		//进入验证
